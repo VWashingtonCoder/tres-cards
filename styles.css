@@ -26,7 +26,20 @@ body {
     font-size: 32px;
 }
 .title { font-weight: bold; }
-
-
-.arrow { width: 5%; }
+.card.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+  margin-top: 0;  
+}
+.link {
+    text-decoration: none;
+    font-size: 30px;
+    width: 50%
+}
+.arrow { 
+    width: 5%;
+    max-height: 20px; 
+}
 
