@@ -1,0 +1,18 @@
+body {
+    width: 100%;
+}
+#cards-body {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-container {
+    width: 30%;
+    border: 2px solid gray;
+}
+.card-container:hover {
+    background-color: whitesmoke;
+}
+
+.logo, .arrow {
+    width: 10%;
+}
