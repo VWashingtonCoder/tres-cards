@@ -31,8 +31,7 @@ body { width: 100%; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5%;
-  margin-top: 0;  
+  margin: 0 5%;  
 }
 .link {
     text-decoration: none;
@@ -43,5 +42,16 @@ body { width: 100%; }
 .arrow { 
     width: 5%;
     max-height: 20px; 
+}
+
+@media (max-width: 768px) {
+    #cards-body { flex-direction: column; }
+    .card-container { 
+        width: 94%;
+        margin: auto; 
+    }
+    .logo { width: 18%; }
+    .text { font-size: 38px; }
+    .link-text { font-size: 35px; }    
 }
 
