@@ -1,6 +1,4 @@
-body {
-    width: 100%;
-}
+body { width: 100%; }
 #cards-body {
     display: flex;
     justify-content: space-evenly;
@@ -25,7 +23,10 @@ body {
     width: 70%;
     font-size: 32px;
 }
-.title { font-weight: bold; }
+.title { 
+    font-weight: bold;
+    color: black; 
+}
 .card.bottom {
   display: flex;
   justify-content: space-between;
@@ -36,8 +37,9 @@ body {
 .link {
     text-decoration: none;
     font-size: 30px;
-    width: 50%
+    width: 50%;
 }
+.description, .link { color: gray; }
 .arrow { 
     width: 5%;
     max-height: 20px; 
